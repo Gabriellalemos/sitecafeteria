@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    font-family: Arial;
+    font-size: 13px;
+    position: sticky;
+    top: 0;
+    opacity: 0.89;
+}
+.evento:hover{
+    color: white
+}
+
+#menu{
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+#links, #testepedidos{
+    background-image: url("https://img.freepik.com/fotos-gratis/cafe-com-canela-em-cima-da-mesa_140725-708.jpg?size=626&ext=jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+li{
+    display: inline-block;
+    padding-right: 25px;
+    }
+
+
+.mídias{
+    text-decoration: none;
+    padding-left: 5px;
+    }
+a{
+    text-decoration: none;
+    color: rgb(190, 184, 172);
+}
+#face,#insta{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width:20px;
+}
+
+#principal{
+    background-color: black;
+    height: 183px;
+    text-align: center;
+}
+#testepedidos{
+    width: 100%;
+    height:auto;      
+}
+#texto{
+    text-decoration: underline white;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    line-height: 500px;
+    color: white; 
+    
+}
+
+#artigo1,#artigo2,#artigo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+.paragrafo{
+    text-align: justify;
+    width: 600px;
+
+
+}
+#imagemartigo1{
+    padding: 70px;
+    padding-top: 100px;
+    width: 300px;
+    float: left;
+}
+#artigo1, #artigo2,#artigo3{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(190, 184, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-size: 16px;
+    height: auto;
+}
+
+#bolos{
+    height: 550px;
+    background-image: url("https://www.oetker.com.br/Recipe/Recipes/oetker.com.br/br-pt/baking/image-thumb__67589__RecipeDetailsLightBox/bolo-cremoso-de-chocolate-e-cafe.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#artigo2{
+    height: 650px;
+}
+
+#nossoEspaco{
+    width: 400px;
+    margin-right: 50px;
+}
+#galeria{
+    display: grid;
+    grid-template: auto auto/ auto auto ;
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+.imagem{
+    width: 220px;
+    height: 231px;
+}
+
+#poema{
+    font-size: 20px;
+    color: aliceblue;
+    font-style: oblique;
+    text-align: center;
+    font-weight: 500;
+    font-size: 27px;
+    padding-top: 300px;
+    background-image: url(https://reviewcafe.com.br/wp-content/uploads/2020/08/cafe-gelado-com-chocolate-1536x1023.webp);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(80%);
+}
+#artigo3{
+    height: 400px;
+}
+#xícara{
+    float: left;
+    width: 400px;
+    margin: 50px;
+}
+
+#rodape{
+    height: 800px;
+    font-family: monospace;
+    word-spacing: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(223, 216, 208);
+    color: rgb(88, 86, 86);
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height:150px;
+}
+.captura{
+     width: 300px;
+     height:30px;
+     margin:3px;
+ }
+#mensagem{
+    width: 300px;
+    height: 107px
+}
+
